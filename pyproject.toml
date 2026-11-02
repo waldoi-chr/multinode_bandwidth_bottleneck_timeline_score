@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "waldoi-chr-disttrain_jd322"
+name = "waldoi-chr-multinode_bandwidth_bottleneck_timeline_score"
 version = "0.1.0"
 description = "解析时间标记，排列分布式训练框架工程师·多机通信的带宽瓶颈的发生顺序，标出间隔异常与逆序事件"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://waldoi-chr.github.io"
-Repository = "https://github.com/waldoi-chr/disttrain_jd322"
-Issues = "https://github.com/waldoi-chr/disttrain_jd322/issues"
+Repository = "https://github.com/waldoi-chr/multinode_bandwidth_bottleneck_timeline_score"
+Issues = "https://github.com/waldoi-chr/multinode_bandwidth_bottleneck_timeline_score/issues"
 
 [project.scripts]
-disttrain_jd322 = "disttrain_jd322:main"
+multinode_bandwidth_bottleneck_timeline_score = "multinode_bandwidth_bottleneck_timeline_score:main"
 
 [tool.setuptools]
-py-modules = ["disttrain_jd322"]
+py-modules = ["multinode_bandwidth_bottleneck_timeline_score"]
